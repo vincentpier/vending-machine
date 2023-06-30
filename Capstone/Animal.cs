@@ -24,11 +24,7 @@ namespace Capstone
             Price = price;
             AnimalType = animalType;
         }
-        public Animal (int inventory)
-        {
-          
-            Inventory = inventory;
-        }
+       
 
     }
 }

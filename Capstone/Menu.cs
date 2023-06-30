@@ -8,7 +8,7 @@ namespace Capstone
     public class Menu
 
     {
-        Dictionary<string, Animal> itemList = new Dictionary<string, Animal> ();
+        Dictionary<string, Animal> itemList = new Dictionary<string, Animal>();
 
         public void DisplayItem(Dictionary<string, Animal> itemList)
         {
@@ -24,7 +24,7 @@ namespace Capstone
                     string[] newArray = line.Split("|");
                     string itemName = newArray[0];
 
-                    if(itemList.ContainsKey(itemName))
+                    if (itemList.ContainsKey(itemName))
                     {
                         Console.WriteLine(line + "|" + itemList[itemName].Inventory);
                     }
@@ -69,6 +69,7 @@ namespace Capstone
             return result;
 
         }
-        
-        }
+
+
     }
+}

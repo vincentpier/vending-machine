@@ -119,12 +119,12 @@ namespace Capstone
             if (change > 0)
             {
                 dimeCount = (int)(change / dime);
-                change = change % dimeCount;
+                change = change % dime;
             }
             if (change > 0)
             {
                 nickelCount = (int)(change / nickel);
-                nickel = change % nickelCount;
+                nickel = change % nickel;
             }
             Console.WriteLine("Dispensing:");
             if (quarterCount > 0)
